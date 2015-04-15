@@ -5537,10 +5537,7 @@ button.close {
   background-image: url(../assets/img/img-home.png);
   background-size: cover;
   width: 100%;
-  height: 100%; }
-  @media screen and (max-width: 450px) {
-    .landing {
-      background-image: none; } }
+  height: auto; }
 
 .navbar {
   background-color: transparent;
@@ -5576,7 +5573,8 @@ button.close {
     font-size: 17px; }
   .text-principal .button-principal {
     margin-top: 5%;
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 42%; }
     .text-principal .button-principal a {
       background-color: #FF6A49;
       border-radius: 11px;
@@ -5669,9 +5667,31 @@ button.close {
   padding: 0 10%; }
 
 .btn-metodologia {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 10%; }
   .btn-metodologia a {
     background-color: #58C6E7;
-    color: white; }
+    color: white;
+    padding: 7px 4%; }
+
+@media screen and (max-width: 480px) {
+  .landing {
+    background-image: none;
+    background-color: aliceblue; }
+
+  .text-general-metodologia .text-metodologia {
+    bottom: 0px; }
+
+  .text-metodologia-center {
+    border-bottom: 2px dashed #FF6A49;
+    border-top: 2px dashed #FF6A49; }
+
+  .btn-home {
+    float: right;
+    position: absolute;
+    top: -107px;
+    margin-left: 39%; } }
+.farolito-postulantes {
+  background-color: #58C6E7; }
 
 /*# sourceMappingURL=main.css.map */

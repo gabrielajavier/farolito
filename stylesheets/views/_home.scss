@@ -21,14 +21,8 @@
 	background-image: url(../assets/img/img-home.png);
 	background-size: cover;
 	width: 100%;
-	height: 100%;
-	@media screen and (max-width: 450px){
-		background-image:none;
-
-	}
+	height: auto;
 }
-
-
 
 .navbar{
 	background-color: transparent;
@@ -73,6 +67,7 @@
 		.button-principal{
 			margin-top: 5%;
 			text-align: center;
+			padding-bottom: 42%;
 			a{
 				background-color: #FF6A49;
 				border-radius: 11px;
@@ -189,8 +184,34 @@
 
 .btn-metodologia{
 	text-align: center;
+	 padding-bottom: 10%;
 	a{
-	background-color: #58C6E7;
-	color: white;
+		background-color: #58C6E7;
+		color: white;
+	  padding: 7px 4%
   }
+}
+
+@media screen and (max-width: $screen-phone){
+		.landing{
+			background-image:none;
+			background-color: aliceblue;
+		}
+		.text-general-metodologia .text-metodologia {
+			bottom: 0px;
+		}
+		.text-metodologia-center{
+			border-bottom: 2px dashed #FF6A49;
+			border-top: 2px dashed #FF6A49;
+		}
+				.btn-home{
+			 float: right;
+			 position: absolute;
+			 top: -107px;
+			 margin-left: 39%;
+		}
+	}	
+
+.farolito-postulantes{
+	background-color: #58C6E7;
 }
