@@ -5620,6 +5620,7 @@ button.close {
     margin: 0 auto;
     position: relative; }
 
+/* SECCION METODOLOGIA*/
 .metodologia {
   background-color: white;
   font-family: "MuseoSans-uno"; }
@@ -5718,17 +5719,21 @@ button.close {
 .text-metodologia-center {
   padding: 0 17%; }
 
-.btn-metodologia {
+.btn-principal-home {
   text-align: center;
   padding-top: 9%;
-  padding-bottom: 5%; }
-  .btn-metodologia a {
+  padding-bottom: 5%;
+  z-index: 10; }
+  .btn-principal-home a {
+    font-family: "MuseoSans-uno";
     font-size: 20px;
+    border: 2px solid white;
     background-color: #58C6E7;
     color: white;
     padding: 1.3% 6%;
     border-radius: 20px; }
 
+/*SECCION FAROLITO POSTULANTE*/
 .farolito-postulantes {
   background-image: url(../assets/img/img-02.png);
   background-size: cover;
@@ -5736,9 +5741,49 @@ button.close {
   height: auto; }
   .farolito-postulantes h1 {
     padding-top: 5%; }
-  .farolito-postulantes h3 {
+  .farolito-postulantes h2 {
     font-family: "MuseoSans"; }
 
+.primera-fila-fp {
+  margin-top: 5%; }
+
+.segunda-fila-fp {
+  margin-top: 10%; }
+
+.tercera-fila-fp {
+  margin-top: 10%; }
+
+.primera-col-fp {
+  padding: 10%;
+  text-align: right; }
+
+.segunda-col-fp {
+  font-family: "MuseoSans"; }
+  .segunda-col-fp h2 {
+    padding-bottom: 5%;
+    border-bottom: 3px dashed white;
+    padding-right: 25%; }
+  .segunda-col-fp img {
+    border-radius: 50%;
+    position: absolute;
+    left: 80%;
+    top: 30%;
+    z-index: 10; }
+
+.tercera-col-fp {
+  padding: 8% 32% 0 17%; }
+  .tercera-col-fp p {
+    font-family: "MuseoSans";
+    letter-spacing: 1px;
+    font-size: 17px; }
+
+.linea-verical-fp {
+  border-bottom: 3px dashed white;
+  transform: rotate(90deg);
+  position: relative;
+  z-index: 1; }
+
+/*@MEDIA */
 @media screen and (max-width: 480px) {
   .landing {
     background-image: none;
