@@ -5940,7 +5940,8 @@ button.close {
     padding-top: 5%; }
 
 .fila-consulta {
-  margin-top: 5%; }
+  margin-top: 5%;
+  margin-bottom: 5%; }
 
 .columna {
   width: 100%;
@@ -5972,6 +5973,24 @@ textarea {
 
 .p-contactanos {
   margin-top: 15%; }
+
+/* SECCI├ôN FOOTER*/
+.footer {
+  background-color: grey; }
+  .footer p {
+    float: right;
+    margin-right: 6%; }
+
+.fila-redes {
+  padding-top: 1%; }
+
+.redes-icon {
+  margin-top: -27px; }
+
+.redes {
+  margin-left: 4%; }
+  .redes img {
+    border-radius: 50%; }
 
 /*@MEDIA */
 @media screen and (max-width: 480px) {
@@ -6057,6 +6076,15 @@ textarea {
 
   .p-contactanos {
     text-align: center;
-    margin-top: 0%; } }
+    margin-top: 0%;
+    margin-bottom: 20%; }
+
+  .fila-redes .redes-icon {
+    text-align: center; }
+  .fila-redes p {
+    float: none;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 0; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -531,6 +531,7 @@
 
 .fila-consulta{
 	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 .columna{
@@ -571,7 +572,31 @@ textarea{
 }
 
 
+/* SECCIÓN FOOTER*/
 
+.footer{
+	background-color: grey;
+	p{
+		float: right;
+		margin-right: 6%;
+
+	}
+}
+
+.fila-redes{
+	padding-top: 1%
+}
+
+.redes-icon{
+	margin-top: -27px;
+}
+
+.redes{
+	margin-left: 4%;
+	img{
+		border-radius: 50%;
+	}
+}
 
 
 /*@MEDIA */
@@ -679,6 +704,18 @@ textarea{
 	}
 	.p-contactanos{
 		text-align: center;
-		margin-top: 0%; 
+		margin-top: 0%;
+		margin-bottom: 20%; 
+	}
+	.fila-redes{
+		.redes-icon{
+			text-align: center;
+		}
+		p{
+			float: none;
+			text-align: center;
+		  margin-top: 5%;
+		  margin-right: 0;
+		}
 	}
 }
