@@ -260,6 +260,9 @@
   .btn-naranja{
   	background-color: #FF6A49;
   }
+  .btn-verde{
+  	background-color: rgb(119, 210, 72);
+  }
 }
 
 
@@ -338,11 +341,12 @@
 		padding-top:5%; 
 	}
 	h3{
-		font-family:"MuseoSans";
+		font-family:"MuseoSans-uno";
 		font-weight: 600;
 		border-bottom: 2px dashed #FF6A49;
 		margin: 3% 26% 2%;
   	padding-bottom: 1%;
+  	letter-spacing: 1px;
 	}
 	p{
 		font-size: 17px;
@@ -351,12 +355,13 @@
 	}
 }
 
-.fila-icon{
+.fila-icon-empresas{
 	margin-top: 5%;
-	h2{
+	h3{
+		font-family: "MuseoSans";
 		font-weight: 100;
 		border-bottom: 0;
-		margin: 6%;
+		margin: 6% 0;
 		padding: 0;
 		padding-bottom: 3%;
 	}
@@ -371,12 +376,60 @@
 	}
 }
 
+/* SECCIÓN FAROLITO CENTRO EDUCATIVO*/
+
+.farolito-centro-edu{
+	background-color: rgb(119, 210, 72);
+	h1{
+		padding-top: 5%;
+	}
+	h3{
+		color: #FBDC53;
+		font-family: "MuseoSans-uno";
+	  font-weight: 600;
+	  border-bottom: 2px dashed white;
+	  margin: 3% 26% 2%;
+	  padding-bottom: 1%;
+	  letter-spacing: 1px;
+	}
+	p{
+		font-size: 17px;
+	  font-family: "MuseoSans";
+	  margin: 0 25%;
+	}
+}
+
+.fila-icon-edu{
+	margin-top: 5%;
+	h3{
+		color: white;
+		font-family: "MuseoSans";
+		font-weight: 100;
+		border-bottom: 0;
+		margin: 6% 0;
+		padding: 0;
+		padding-bottom: 3%;
+	}
+	p{
+		margin: 0 8%;
+	}
+	img{
+		border-radius: 50%;
+	}
+	span{
+	  display: inherit;
+	  margin: 5% 0;
+	  font-size: 17px;
+		font-family: "MuseoSans";
+	}
+}
 
 
 
 
 
 /*@MEDIA */
+
 
 @media screen and (max-width: $screen-phone){
 		.landing{
@@ -423,15 +476,18 @@
 	   text-align: center;
 	   padding-top: 35%;
     }
+
+
     .farolito-empresas{
     	h3{
-    		margin: 10% 5% ;
-    		padding-bottom: 8%;
+    		margin: 10% 4% 1%;
+    		padding-bottom: 5%;
     	}
    }
-    .fila-icon{
-    	h2{
+    .fila-icon-empresas{
+    	h3{
     	color: #FF6A49 !important;
+    	border-bottom: 0;
      }
      p{
      	margin: 0;
@@ -439,5 +495,18 @@
    }
     .col-f-empresas{
     	margin-top: 15%;
+    }
+
+
+    .farolito-centro-edu{
+    	h3{
+    		margin: 10% 4% 1%;
+    		padding-bottom: 5%;
+    	}
+    }	
+    .fila-icon-edu{
+    	p{
+    		margin: 0;
+    	}
     }
 	}	

@@ -5737,6 +5737,8 @@ button.close {
     border-radius: 20px; }
   .btn-principal-home .btn-naranja {
     background-color: #FF6A49; }
+  .btn-principal-home .btn-verde {
+    background-color: #77d248; }
 
 /*SECCION FAROLITO POSTULANTE*/
 .farolito-postulantes {
@@ -5793,27 +5795,67 @@ button.close {
 .farolito-empresas h1 {
   padding-top: 5%; }
 .farolito-empresas h3 {
-  font-family: "MuseoSans";
+  font-family: "MuseoSans-uno";
   font-weight: 600;
   border-bottom: 2px dashed #FF6A49;
   margin: 3% 26% 2%;
-  padding-bottom: 1%; }
+  padding-bottom: 1%;
+  letter-spacing: 1px; }
 .farolito-empresas p {
   font-size: 17px;
   font-family: "MuseoSans";
   margin: 0 28%; }
 
-.fila-icon {
+.fila-icon-empresas {
   margin-top: 5%; }
-  .fila-icon h2 {
+  .fila-icon-empresas h3 {
+    font-family: "MuseoSans";
     font-weight: 100;
     border-bottom: 0;
-    margin: 6%;
+    margin: 6% 0;
     padding: 0;
     padding-bottom: 3%; }
-  .fila-icon p {
+  .fila-icon-empresas p {
     margin: 0 8%; }
-  .fila-icon span {
+  .fila-icon-empresas span {
+    display: inherit;
+    margin: 5% 0;
+    font-size: 17px;
+    font-family: "MuseoSans"; }
+
+/* SECCI├ôN FAROLITO CENTRO EDUCATIVO*/
+.farolito-centro-edu {
+  background-color: #77d248; }
+  .farolito-centro-edu h1 {
+    padding-top: 5%; }
+  .farolito-centro-edu h3 {
+    color: #FBDC53;
+    font-family: "MuseoSans-uno";
+    font-weight: 600;
+    border-bottom: 2px dashed white;
+    margin: 3% 26% 2%;
+    padding-bottom: 1%;
+    letter-spacing: 1px; }
+  .farolito-centro-edu p {
+    font-size: 17px;
+    font-family: "MuseoSans";
+    margin: 0 25%; }
+
+.fila-icon-edu {
+  margin-top: 5%; }
+  .fila-icon-edu h3 {
+    color: white;
+    font-family: "MuseoSans";
+    font-weight: 100;
+    border-bottom: 0;
+    margin: 6% 0;
+    padding: 0;
+    padding-bottom: 3%; }
+  .fila-icon-edu p {
+    margin: 0 8%; }
+  .fila-icon-edu img {
+    border-radius: 50%; }
+  .fila-icon-edu span {
     display: inherit;
     margin: 5% 0;
     font-size: 17px;
@@ -5862,15 +5904,23 @@ button.close {
     padding-top: 35%; }
 
   .farolito-empresas h3 {
-    margin: 10% 5%;
-    padding-bottom: 8%; }
+    margin: 10% 4% 1%;
+    padding-bottom: 5%; }
 
-  .fila-icon h2 {
-    color: #FF6A49 !important; }
-  .fila-icon p {
+  .fila-icon-empresas h3 {
+    color: #FF6A49 !important;
+    border-bottom: 0; }
+  .fila-icon-empresas p {
     margin: 0; }
 
   .col-f-empresas {
-    margin-top: 15%; } }
+    margin-top: 15%; }
+
+  .farolito-centro-edu h3 {
+    margin: 10% 4% 1%;
+    padding-bottom: 5%; }
+
+  .fila-icon-edu p {
+    margin: 0; } }
 
 /*# sourceMappingURL=main.css.map */
