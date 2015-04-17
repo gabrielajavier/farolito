@@ -477,6 +477,100 @@
   float: right;
 }
 
+
+/*SECCIÓN BLOG FAROLITO*/
+
+.blog-farolito{
+	h1{
+		padding-top: 5%;
+	}
+}
+
+.fila-blog{
+	margin:0% 9%;
+	.img-blog{
+		text-align: center;
+		position: relative;
+  	top: 35px;
+		img{
+			border-radius: 50%;
+		}
+	}
+	.caja-blog{
+		background-color: #E8E8E8;
+		width: 100%;
+  	height: 27%;
+  	.text-blog{
+			padding: 17% 6% 6% 12%;
+			margin: 0;
+	 }	
+ }
+
+  .caja-blog:hover{
+ 		transition: 0.5s;
+		background-color: #FAD710;
+		width: 100%;
+  	height: 27%;
+  	.text-blog{
+  		color: white;
+			padding: 17% 6% 6% 12%;
+	    margin: 0;
+		}
+  }
+}
+
+
+/* SECCIÓN CONSULTA*/
+
+.consulta{
+	background-color: #E8E8E8;
+	h1{
+		padding-top: 5%;
+	}
+}
+
+.fila-consulta{
+	margin-top: 5%;
+}
+
+.columna{
+	width: 100%;
+	padding-bottom: 3%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.estilo-nombre{
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 13px;
+	color: #555555;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	border:1px solid #C8C8C8;
+	border-radius: 0;
+}
+
+.btn-consulta{
+	float: right;
+	padding: 2%;
+	a{
+		padding: 1.2% 18% !important
+	}
+}
+
+textarea{
+	width: 100%;
+	padding: 6px 12px;
+}
+
+
+
+
+
 /*@MEDIA */
 
 
@@ -558,4 +652,8 @@
     		margin: 0;
     	}
     }
-	}	
+
+	.caja-blog{
+		background-color: transparent;
+	}
+}
