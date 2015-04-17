@@ -5571,6 +5571,11 @@ button.close {
 .row {
   margin: 0; }
 
+.size-p {
+  font-size: 18px;
+  font-family: "MuseoSans";
+  letter-spacing: 1px; }
+
 .text-center {
   text-align: center; }
 
@@ -5630,8 +5635,6 @@ button.close {
 .metodologia {
   background-color: white;
   font-family: "MuseoSans-uno"; }
-  .metodologia p {
-    font-size: 17px; }
   .metodologia .comilla-uno {
     position: relative;
     right: -240px;
@@ -5714,9 +5717,6 @@ button.close {
   font-family: "MuseoSans-uno"; }
   .text-metodologia h3 {
     font-weight: 600; }
-  .text-metodologia p {
-    font-family: "MuseoSans";
-    letter-spacing: 1px; }
 
 .text-metodologia-center {
   padding: 0 17%; }
@@ -5739,6 +5739,17 @@ button.close {
     background-color: #FF6A49; }
   .btn-principal-home .btn-verde {
     background-color: #77d248; }
+  .btn-principal-home .btn-blanco {
+    background-color: white;
+    color: #FF6A49;
+    border: 2px solid #FF6A49;
+    padding: 3% 13%;
+    font-size: 17px; }
+  .btn-principal-home .btn-grey {
+    background-color: grey;
+    color: white;
+    padding: 0.5% 2%;
+    font-size: 17; }
 
 /*SECCION FAROLITO POSTULANTE*/
 .farolito-postulantes {
@@ -5779,11 +5790,7 @@ button.close {
     z-index: 10; }
 
 .tercera-col-fp {
-  padding: 8% 32% 0 17%; }
-  .tercera-col-fp p {
-    font-family: "MuseoSans";
-    letter-spacing: 1px;
-    font-size: 17px; }
+  padding: 8% 22% 0 17%; }
 
 .linea-verical-fp {
   border-bottom: 2px dashed white;
@@ -5802,8 +5809,6 @@ button.close {
   padding-bottom: 1%;
   letter-spacing: 1px; }
 .farolito-empresas p {
-  font-size: 17px;
-  font-family: "MuseoSans";
   margin: 0 28%; }
 
 .fila-icon-empresas {
@@ -5816,7 +5821,7 @@ button.close {
     padding: 0;
     padding-bottom: 3%; }
   .fila-icon-empresas p {
-    margin: 0 8%; }
+    margin: 0 3%; }
   .fila-icon-empresas span {
     display: inherit;
     margin: 5% 0;
@@ -5837,8 +5842,6 @@ button.close {
     padding-bottom: 1%;
     letter-spacing: 1px; }
   .farolito-centro-edu p {
-    font-size: 17px;
-    font-family: "MuseoSans";
     margin: 0 25%; }
 
 .fila-icon-edu {
@@ -5852,7 +5855,7 @@ button.close {
     padding: 0;
     padding-bottom: 3%; }
   .fila-icon-edu p {
-    margin: 0 8%; }
+    margin: 0 2%; }
   .fila-icon-edu img {
     border-radius: 50%; }
   .fila-icon-edu span {
@@ -5860,6 +5863,46 @@ button.close {
     margin: 5% 0;
     font-size: 17px;
     font-family: "MuseoSans"; }
+
+/*SECCI├ôN LISTA DE POSTULANTES*/
+.lista-de-oportunidades {
+  background-image: url(../assets/img/img-03.png);
+  background-size: cover;
+  width: 100%;
+  height: auto; }
+  .lista-de-oportunidades h1 {
+    padding-top: 9%; }
+  .lista-de-oportunidades .fila-lista {
+    margin: 5% 18% 0;
+    padding-bottom: 3%;
+    border-bottom: 2px dotted #B8B8B8; }
+    .lista-de-oportunidades .fila-lista .col-sm-6 {
+      padding: 0; }
+
+.text-lista h4 {
+  font-family: "MuseoSans-uno";
+  letter-spacing: 1px;
+  padding-bottom: 1%; }
+
+.border-p {
+  border-bottom: 1px solid #58C6E7; }
+
+.margin-1 {
+  margin-right: 48%; }
+
+.margin-2 {
+  margin-right: 30%; }
+
+.margin-3 {
+  margin-right: 34%; }
+
+.text-p {
+  margin-top: 6%; }
+
+.boton-lista {
+  margin-top: 30%;
+  padding: 0;
+  float: right; }
 
 /*@MEDIA */
 @media screen and (max-width: 480px) {

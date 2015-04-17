@@ -53,6 +53,12 @@
 	margin: 0;
 }
 
+.size-p{
+	font-size: 18px;
+	font-family: "MuseoSans";
+	letter-spacing: 1px;
+}
+
 .text-center{
 	text-align: center;
 }
@@ -127,9 +133,6 @@
 .metodologia{
 	background-color: white;
 	font-family: "MuseoSans-uno";
-	p{
-		font-size: 17px;
-	}
 	.comilla-uno{
 		position: relative;
 		right: -240px;
@@ -231,10 +234,6 @@
 	h3{
 		font-weight: 600;
 	}
-	p{
-		font-family: "MuseoSans";
-		letter-spacing: 1px;
-	}  
 }
 
 .text-metodologia-center{
@@ -262,6 +261,19 @@
   }
   .btn-verde{
   	background-color: rgb(119, 210, 72);
+  }
+  .btn-blanco{
+  	background-color: white;
+  	color: #FF6A49;
+  	border: 2px solid #FF6A49;
+  	padding: 3% 13%;
+  	font-size: 17px;
+  }
+  .btn-grey{
+  	background-color: grey;
+  	color: white;
+  	padding: 0.5% 2%;
+  	font-size: 17;
   }
 }
 
@@ -318,12 +330,7 @@
 }
 
 .tercera-col-fp{
-	padding: 8% 32% 0 17%;
-	  p{
-		  font-family: "MuseoSans";
-	    letter-spacing: 1px;
-	    font-size: 17px;
-	  }
+	padding: 8% 22% 0 17%;
 }
 
 .linea-verical-fp{
@@ -349,8 +356,6 @@
   	letter-spacing: 1px;
 	}
 	p{
-		font-size: 17px;
-		font-family: "MuseoSans";
 		margin: 0 28%;
 	}
 }
@@ -366,7 +371,7 @@
 		padding-bottom: 3%;
 	}
 	p{
-		margin: 0 8%;
+		margin: 0 3%;
 	}
 	span{
 	  display: inherit;
@@ -393,8 +398,6 @@
 	  letter-spacing: 1px;
 	}
 	p{
-		font-size: 17px;
-	  font-family: "MuseoSans";
 	  margin: 0 25%;
 	}
 }
@@ -411,7 +414,7 @@
 		padding-bottom: 3%;
 	}
 	p{
-		margin: 0 8%;
+		margin: 0 2%;
 	}
 	img{
 		border-radius: 50%;
@@ -424,9 +427,55 @@
 	}
 }
 
+/*SECCIÓN LISTA DE POSTULANTES*/
 
+.lista-de-oportunidades{
+	background-image: url(../assets/img/img-03.png);
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	h1{
+		padding-top:9%; 
+	} 
+	.fila-lista{
+		margin: 5% 18% 0;
+		padding-bottom: 3%;
+		border-bottom: 2px dotted #B8B8B8;
+		.col-sm-6{
+			padding: 0;
+		}
+	}
+}
 
+.text-lista{
+	h4{
+  	font-family:  "MuseoSans-uno";
+  	letter-spacing: 1px;
+  	padding-bottom: 1%;
+  }
+}
 
+.border-p{
+	border-bottom: 1px solid #58C6E7;
+}
+.margin-1{
+	margin-right: 48%;
+}
+.margin-2{
+	margin-right: 30%;
+}
+.margin-3{
+	margin-right: 34%;
+}
+.text-p{
+	margin-top: 6%;
+}
+
+.boton-lista{
+	margin-top: 30%;
+  padding: 0;
+  float: right;
+}
 
 /*@MEDIA */
 
