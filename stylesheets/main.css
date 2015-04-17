@@ -5944,9 +5944,7 @@ button.close {
 
 .columna {
   width: 100%;
-  padding-bottom: 3%;
-  padding-left: 1%;
-  padding-right: 1%; }
+  padding: 2% 0; }
 
 .estilo-nombre {
   display: block;
@@ -5965,11 +5963,15 @@ button.close {
   float: right;
   padding: 2%; }
   .btn-consulta a {
-    padding: 1.2% 18% !important; }
+    padding: 2% 20% !important;
+    margin: 0; }
 
 textarea {
   width: 100%;
   padding: 6px 12px; }
+
+.p-contactanos {
+  margin-top: 15%; }
 
 /*@MEDIA */
 @media screen and (max-width: 480px) {
@@ -6034,6 +6036,27 @@ textarea {
     margin: 0; }
 
   .caja-blog {
-    background-color: transparent; } }
+    background-color: transparent !important;
+    text-align: center;
+    margin-top: 20%; }
+    .caja-blog .text-blog {
+      padding: 0 !important;
+      margin-top: 35% !important; }
+
+  .grupo-formulario {
+    visibility: visible; }
+
+  .estilo-nombre {
+    text-align: center; }
+
+  .btn-consulta {
+    float: none; }
+
+  textarea {
+    text-align: center; }
+
+  .p-contactanos {
+    text-align: center;
+    margin-top: 0%; } }
 
 /*# sourceMappingURL=main.css.map */
