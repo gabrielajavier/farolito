@@ -5537,6 +5537,9 @@ button.close {
 @font-face {
   font-family: NeutraText-DemiAlt;
   src: url(../assets/Fuente/Titulares/NeutraText-DemiAlt.otf); }
+@font-face {
+  font-family: NeutraText-LightAlt;
+  src: url(../assets/Fuente/Titulares/NeutraText-LightAlt.otf); }
 .container-fluid {
   padding: 0; }
 
@@ -5553,13 +5556,15 @@ button.close {
   font-weight: 600;
   font-size: 19px;
   color: grey;
-  margin-right: 2%; }
+  margin-right: 2%;
+  margin-bottom: 0; }
 
 .btn {
   margin: 8px 8px;
   color: white;
   background-color: grey;
-  border-radius: 12px; }
+  border-radius: 12px;
+  padding: 6px 27px; }
 
 .bnt-dropdown {
   border: 1px solid grey;
@@ -5570,6 +5575,16 @@ button.close {
 
 .row {
   margin: 0; }
+
+.text-h3 {
+  font-family: "NeutraText-LightAlt";
+  font-weight: 100;
+  border-bottom: 0;
+  margin: 6% 0;
+  padding: 0;
+  padding-bottom: 3%;
+  line-height: 1.5;
+  font-size: 30px; }
 
 .size-p {
   font-size: 18px;
@@ -5796,12 +5811,14 @@ button.close {
   border-bottom: 2px dashed white;
   transform: rotate(90deg);
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  width: 60%;
+  margin-left: 20%; }
 
 /*SECCI├ôN FAROLITO EMPRESAS*/
 .farolito-empresas h1 {
   padding-top: 5%; }
-.farolito-empresas h3 {
+.farolito-empresas .text-h3-fempresas {
   font-family: "MuseoSans-uno";
   font-weight: 600;
   border-bottom: 2px dashed #FF6A49;
@@ -5813,13 +5830,6 @@ button.close {
 
 .fila-icon-empresas {
   margin-top: 5%; }
-  .fila-icon-empresas h3 {
-    font-family: "MuseoSans";
-    font-weight: 100;
-    border-bottom: 0;
-    margin: 6% 0;
-    padding: 0;
-    padding-bottom: 3%; }
   .fila-icon-empresas p {
     margin: 0 3%; }
   .fila-icon-empresas span {
@@ -5833,7 +5843,7 @@ button.close {
   background-color: #77d248; }
   .farolito-centro-edu h1 {
     padding-top: 5%; }
-  .farolito-centro-edu h3 {
+  .farolito-centro-edu .text-h3-fedu {
     color: #FBDC53;
     font-family: "MuseoSans-uno";
     font-weight: 600;
@@ -5846,14 +5856,6 @@ button.close {
 
 .fila-icon-edu {
   margin-top: 5%; }
-  .fila-icon-edu h3 {
-    color: white;
-    font-family: "MuseoSans";
-    font-weight: 100;
-    border-bottom: 0;
-    margin: 6% 0;
-    padding: 0;
-    padding-bottom: 3%; }
   .fila-icon-edu p {
     margin: 0 2%; }
   .fila-icon-edu img {
@@ -6086,5 +6088,48 @@ textarea {
     text-align: center;
     margin-top: 5%;
     margin-right: 0; } }
+.home-nosotros {
+  background-image: url(../assets/img/img_nosotros-02.png);
+  width: 100%;
+  /*height: 100%;*/
+  min-height: 560px;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.menu-nosotros {
+  background-color: #f0fbfd; }
+
+.menu-fijo {
+  margin-top: 6px; }
+
+.collapse img {
+  width: 8%;
+  margin: 13px 40px; }
+
+.text-center-nosotros {
+  padding-top: 5%; }
+  .text-center-nosotros h3 {
+    font-size: 25px; }
+
+/*SECCI├ôN FUNDADORES*/
+.fundadores h1 {
+  margin-top: 5%; }
+
+.fila-fundadores {
+  margin-top: 5%; }
+  .fila-fundadores .col-fundadores .img-fundadores img {
+    width: 170px;
+    border-radius: 50%;
+    padding: 2%;
+    border: 2px solid grey; }
+  .fila-fundadores .col-fundadores h3 {
+    margin: 0;
+    padding: 0;
+    margin-top: 5%; }
+  .fila-fundadores .col-fundadores p {
+    font-weight: 600; }
+  .fila-fundadores .col-fundadores .text-parrafo {
+    font-weight: 100;
+    padding: 5% 9%; }
 
 /*# sourceMappingURL=main.css.map */

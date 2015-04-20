@@ -13,6 +13,11 @@
     src: url(../assets/Fuente/Titulares/NeutraText-DemiAlt.otf);
 }
 
+@font-face {
+    font-family: NeutraText-LightAlt;
+    src: url(../assets/Fuente/Titulares/NeutraText-LightAlt.otf);
+}
+
 .container-fluid{
 	padding: 0
 }
@@ -32,6 +37,7 @@
 	font-size: 19px;
 	color:grey;
 	margin-right: 2%;
+	margin-bottom: 0;
  }
 
  .btn{
@@ -39,7 +45,8 @@
 	color: white;
 	background-color: grey;
 	border-radius: 12px;
-  	}
+	padding:6px 27px;
+}
 
 .bnt-dropdown{
   border: 1px solid grey;
@@ -51,6 +58,17 @@
 
 .row{
 	margin: 0;
+}
+
+.text-h3{
+  font-family: "NeutraText-LightAlt";
+  font-weight: 100;
+  border-bottom: 0;
+  margin: 6% 0;
+  padding: 0;
+  padding-bottom: 3%;
+  line-height: 1.5;	
+  font-size: 30px;
 }
 
 .size-p{
@@ -338,6 +356,9 @@
 	transform: rotate(90deg);
 	position: relative;
   z-index: 1;
+  width: 60%;
+  margin-left: 20%;
+
 }
 
 
@@ -347,7 +368,7 @@
 	h1{
 		padding-top:5%; 
 	}
-	h3{
+	.text-h3-fempresas{
 		font-family:"MuseoSans-uno";
 		font-weight: 600;
 		border-bottom: 2px dashed #FF6A49;
@@ -362,14 +383,6 @@
 
 .fila-icon-empresas{
 	margin-top: 5%;
-	h3{
-		font-family: "MuseoSans";
-		font-weight: 100;
-		border-bottom: 0;
-		margin: 6% 0;
-		padding: 0;
-		padding-bottom: 3%;
-	}
 	p{
 		margin: 0 3%;
 	}
@@ -388,7 +401,7 @@
 	h1{
 		padding-top: 5%;
 	}
-	h3{
+	.text-h3-fedu{
 		color: #FBDC53;
 		font-family: "MuseoSans-uno";
 	  font-weight: 600;
@@ -404,15 +417,6 @@
 
 .fila-icon-edu{
 	margin-top: 5%;
-	h3{
-		color: white;
-		font-family: "MuseoSans";
-		font-weight: 100;
-		border-bottom: 0;
-		margin: 6% 0;
-		padding: 0;
-		padding-bottom: 3%;
-	}
 	p{
 		margin: 0 2%;
 	}
