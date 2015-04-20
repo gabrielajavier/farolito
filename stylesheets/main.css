@@ -6115,21 +6115,31 @@ textarea {
 .fundadores h1 {
   margin-top: 5%; }
 
-.fila-fundadores {
+.fila-img-circular {
   margin-top: 5%; }
-  .fila-fundadores .col-fundadores .img-fundadores img {
+  .fila-img-circular .col-fundadores .img-fundadores img {
     width: 170px;
     border-radius: 50%;
     padding: 2%;
     border: 2px solid grey; }
-  .fila-fundadores .col-fundadores h3 {
+  .fila-img-circular .col-fundadores h3 {
     margin: 0;
     padding: 0;
     margin-top: 5%; }
-  .fila-fundadores .col-fundadores p {
+  .fila-img-circular .col-fundadores p {
     font-weight: 600; }
-  .fila-fundadores .col-fundadores .text-parrafo {
+  .fila-img-circular .col-fundadores .text-parrafo {
     font-weight: 100;
     padding: 5% 9%; }
+
+/*SECCI├ôN ASESORES*/
+.asesores h1 {
+  padding-top: 6%;
+  border-top: 2px dashed grey;
+  margin-top: 6%; }
+
+/*SECCI├ôN TEST*/
+.test-fila {
+  padding-bottom: 5%; }
 
 /*# sourceMappingURL=main.css.map */
