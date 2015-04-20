@@ -76,3 +76,32 @@
 .test-fila{
 	padding-bottom: 5%;
 }
+
+/*SECCIÓN CITAS*/
+
+.citas{
+	background-color:  #FF6A49;
+	.img-citas{
+		padding-top: 10%;
+		margin-bottom: 5%;
+	}
+}
+
+.fila-cita{
+	margin-top: 5%;
+}
+
+.text-center-cita{
+	h3{
+		margin: 3%;
+  	padding: 0;
+	}
+	p{
+		margin:7% 0 15%;
+	}
+} 
+
+.linea-dashed-cita{
+	border-top: 2px dashed white;
+	margin: 0 25%;
+}

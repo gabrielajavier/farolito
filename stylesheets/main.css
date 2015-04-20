@@ -5806,6 +5806,8 @@ button.close {
 
 .tercera-col-fp {
   padding: 8% 22% 0 17%; }
+  .tercera-col-fp p {
+    font-size: 21px; }
 
 .linea-verical-fp {
   border-bottom: 2px dashed white;
@@ -5992,7 +5994,8 @@ textarea {
 .redes {
   margin-left: 4%; }
   .redes img {
-    border-radius: 50%; }
+    border-radius: 50%;
+    border: 1px solid white; }
 
 /*@MEDIA */
 @media screen and (max-width: 480px) {
@@ -6141,5 +6144,25 @@ textarea {
 /*SECCI├ôN TEST*/
 .test-fila {
   padding-bottom: 5%; }
+
+/*SECCI├ôN CITAS*/
+.citas {
+  background-color: #FF6A49; }
+  .citas .img-citas {
+    padding-top: 10%;
+    margin-bottom: 5%; }
+
+.fila-cita {
+  margin-top: 5%; }
+
+.text-center-cita h3 {
+  margin: 3%;
+  padding: 0; }
+.text-center-cita p {
+  margin: 7% 0 15%; }
+
+.linea-dashed-cita {
+  border-top: 2px dashed white;
+  margin: 0 25%; }
 
 /*# sourceMappingURL=main.css.map */

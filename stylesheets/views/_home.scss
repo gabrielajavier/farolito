@@ -18,6 +18,7 @@
     src: url(../assets/Fuente/Titulares/NeutraText-LightAlt.otf);
 }
 
+
 .container-fluid{
 	padding: 0
 }
@@ -349,6 +350,9 @@
 
 .tercera-col-fp{
 	padding: 8% 22% 0 17%;
+	p{
+		font-size: 21px;
+	}
 }
 
 .linea-verical-fp{
@@ -599,6 +603,7 @@ textarea{
 	margin-left: 4%;
 	img{
 		border-radius: 50%;
+		border: 1px solid white;
 	}
 }
 
