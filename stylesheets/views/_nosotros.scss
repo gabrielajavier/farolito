@@ -1,3 +1,10 @@
+.icon-farolito-movil{
+	width: 25%;
+  top: 17px;
+  position: absolute;
+  margin-left: 30%;
+}
+
 .home-nosotros{
 	background-image: url(../assets/img/img_nosotros-02.png);
 	width: 100%;
@@ -102,4 +109,65 @@
 .linea-dashed-cita{
 	border-top: 2px dashed white;
 	margin: 0 25%;
+}
+
+
+
+
+
+@media screen and (max-width: $screen-phone){
+	.home-nosotros{
+		background-image:url(../assets/iconos/img_nosotros-03.png) !important;
+		width: 100%;
+		height: auto;
+	}
+	
+	.btn-nosotros{
+		top: 1px !important;
+		margin-left: 63%;
+	}
+
+	.text-center-nosotros{
+		padding:4%;
+		h1{
+			font-size: 40px;
+		}
+		h3{
+			font-size: 19px;
+  		padding: 6%;
+		}
+	}
+
+	.fundadores{
+		h1{
+			font-size: 40px;
+		}
+	}
+	.col-fundadores{
+		h3{
+			font-weight: 600;
+		}
+	}
+
+	.text-center-cita{
+		padding:0;
+		.linea-dashed-cita{
+			margin: 0 2% !important;
+		}
+		h3{
+			margin: 6% 0 !important;
+		}
+		p{
+			padding: 11% 3% !important;
+		}
+	}
+	.img-fundadores{
+		img{
+			width: 50% !important;
+		}
+	}
+	.button-principal a {
+	  background-color: #FF6A49;
+	  border-color: #ff5530;
+	}
 }

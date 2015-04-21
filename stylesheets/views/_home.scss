@@ -57,6 +57,10 @@
   font-size: 13px;
 }
 
+.navbar-toggle {
+  border-color: aliceblue !important;
+}
+
 .row{
 	margin: 0;
 }
@@ -751,31 +755,6 @@ textarea{
 			text-align: center;
 		  margin-top: 5%;
 		  margin-right: 0;
-		}
-	}
-	.home-nosotros{
-		background-image:url(../assets/iconos/img_nosotros-03.png) !important;
-		width: 100%;
-		height: auto;
-	}
-	.text-center-nosotros{
-		padding:2%;
-	}
-	.text-center-cita{
-		padding:0;
-		.linea-dashed-cita{
-			margin: 0 2% !important;
-		}
-		h3{
-			margin: 6% 0 !important;
-		}
-		p{
-			padding: 11% 3% !important;
-		}
-	}
-	.img-fundadores{
-		img{
-			width: 50% !important;
 		}
 	}
 }
