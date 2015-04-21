@@ -5812,13 +5812,14 @@ button.close {
   .tercera-col-fp p {
     font-size: 21px; }
 
-.linea-verical-fp {
+.linea-vertical-fp {
   border-bottom: 2px dashed white;
   transform: rotate(90deg);
   position: relative;
   z-index: 1;
-  width: 60%;
-  margin-left: 20%; }
+  width: 70%;
+  margin-left: 15%;
+  margin-top: -4%; }
 
 /*SECCI├ôN FAROLITO EMPRESAS*/
 .farolito-empresas h1 {
@@ -5924,15 +5925,17 @@ button.close {
     .fila-blog .img-blog img {
       border-radius: 50%; }
   .fila-blog .caja-blog {
-    background-color: #E8E8E8;
+    background-color: #E7E7E7;
     width: 100%;
     height: 27%; }
     .fila-blog .caja-blog .text-blog {
       padding: 17% 6% 6% 12%;
       margin: 0; }
+    .fila-blog .caja-blog a {
+      text-decoration: none; }
   .fila-blog .caja-blog:hover {
     transition: 0.5s;
-    background-color: #FAD710;
+    background-color: #ffc200;
     width: 100%;
     height: 27%; }
     .fila-blog .caja-blog:hover .text-blog {
@@ -6230,5 +6233,73 @@ textarea {
   .button-principal a {
     background-color: #FF6A49;
     border-color: #ff5530; } }
+.content-blog h1 {
+  font-family: "NeutraText-LightAlt";
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 40px; }
+
+.conten-center-blog {
+  margin-top: 5%;
+  padding-left: 8%; }
+  .conten-center-blog span {
+    font-family: "MuseoSans"; }
+  .conten-center-blog .img-text .img-blog {
+    float: left; }
+    .conten-center-blog .img-text .img-blog img {
+      width: 85%; }
+  .conten-center-blog .img-text h3 {
+    margin: 9% 0 0 15%;
+    padding: 0; }
+  .conten-center-blog .img-text p {
+    font-weight: 600;
+    margin: 0 15% 0; }
+
+.text-p-blog {
+  margin: 10% 0; }
+  .text-p-blog p {
+    line-height: 1.5; }
+
+.text-yellow {
+  color: #ffc200; }
+
+.p-absolute {
+  position: absolute; }
+
+.conten-rigth-blog {
+  margin-top: 5%; }
+  .conten-rigth-blog p {
+    font-size: 18px;
+    font-family: "MuseoSans";
+    letter-spacing: 1px;
+    font-weight: 600; }
+
+.fila-ridth-blog {
+  margin-bottom: 25%; }
+
+.caja-text-blog {
+  margin-top: 10%; }
+  .caja-text-blog .img-blog {
+    text-align: center;
+    position: relative;
+    top: 35px; }
+    .caja-text-blog .img-blog img {
+      border-radius: 50%;
+      width: 25%; }
+  .caja-text-blog .caja-blog {
+    background-color: #E7E7E7;
+    width: 100%; }
+    .caja-text-blog .caja-blog .text-blog {
+      padding: 10% 12% 15%;
+      margin: 0; }
+  .caja-text-blog li {
+    list-style: none;
+    border-bottom: 1px solid #C4C4C4;
+    padding: 2px 0; }
+
+.text-caja-blog {
+  padding: 25% 6% 20% 10%;
+  margin: 0;
+  font-size: 16px !important; }
 
 /*# sourceMappingURL=main.css.map */

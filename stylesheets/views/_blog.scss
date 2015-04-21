@@ -1,0 +1,93 @@
+.content-blog{
+	h1{
+		font-family: "NeutraText-LightAlt";
+		font-weight: 600;
+		letter-spacing: 1px;
+ 		font-size: 40px;
+	}
+}
+
+.conten-center-blog{
+	margin-top: 5%;
+	padding-left: 8%;
+	span{
+		font-family: "MuseoSans";
+	}
+	.img-text{
+		.img-blog{
+			float: left;
+			img{
+				width: 85%;
+			}
+		 }
+		h3{
+			  margin: 9% 0 0 15%;
+			  padding: 0;
+		}
+		p{
+			font-weight: 600;
+			margin: 0 15% 0;
+		}
+	 }
+  }
+
+.text-p-blog{
+	margin: 10% 0;
+	p{
+		line-height: 1.5;
+  }
+}
+
+.text-yellow{
+	color: #ffc200;
+}
+
+.p-absolute{
+	position: absolute;
+}
+
+.conten-rigth-blog{
+	margin-top: 5%;
+	p{
+		font-size: 18px;
+		font-family: "MuseoSans";
+		letter-spacing: 1px;
+		font-weight: 600;
+	}
+}
+
+.fila-ridth-blog{
+	margin-bottom: 25%;
+}
+
+.caja-text-blog{
+	 margin-top: 10%;
+	.img-blog{
+		text-align: center;
+		position: relative;
+  	top: 35px;
+		img{
+			border-radius: 50%;
+			width: 25%;
+		}
+	}
+.caja-blog{
+	background-color: #E7E7E7;
+	width: 100%;
+	.text-blog{
+		padding: 10% 12% 15%;
+		margin: 0;
+   }
+  }
+  li{
+		list-style: none;
+		border-bottom: 1px solid #C4C4C4;
+	  padding: 2px 0;
+  }
+}
+
+.text-caja-blog{
+	padding: 25% 6% 20% 10%;
+  margin: 0;
+  font-size: 16px !important;
+}

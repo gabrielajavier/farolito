@@ -359,13 +359,14 @@
 	}
 }
 
-.linea-verical-fp{
+.linea-vertical-fp{
 	border-bottom: 2px dashed white;
 	transform: rotate(90deg);
 	position: relative;
   z-index: 1;
-  width: 60%;
-  margin-left: 20%;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: -4%;
 
 }
 
@@ -509,18 +510,20 @@
 		}
 	}
 	.caja-blog{
-		background-color: #E8E8E8;
+		background-color: #E7E7E7;
 		width: 100%;
   	height: 27%;
   	.text-blog{
 			padding: 17% 6% 6% 12%;
 			margin: 0;
 	 }	
+		 a{
+	  	text-decoration: none;
+	  }
  }
-
   .caja-blog:hover{
  		transition: 0.5s;
-		background-color: #FAD710;
+		background-color: #ffc200;
 		width: 100%;
   	height: 27%;
   	.text-blog{
