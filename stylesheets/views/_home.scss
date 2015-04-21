@@ -616,6 +616,11 @@ textarea{
 			background-image:none;
 			background-color: aliceblue;
 		}
+
+		.text-principal-home{
+			padding: 0 5%;
+		}
+
 		.text-metodologia-center{
 			padding: 0;
 			border-bottom: 2px dashed #FF6A49;
@@ -624,11 +629,21 @@ textarea{
 			.btn-home{
 			 float: right;
 			 position: absolute;
-			 top: -107px;
-			 margin-left: 25%;
+			 top: -100px;
+			 margin-left: 56%;
+			 a{
+			 	font-size: 11px !important;
+		 	  padding: 7px 4px !important;
+				border-radius: 8px !important;
+			 }
 		}
+
+
 		.primera-col-fp{
 		  text-align: center;
+		  p{
+		  	font-size: 17px;
+		  }
 		}
 		.segunda-col-fp{
 			h2{
@@ -650,18 +665,24 @@ textarea{
 				  text-align: center;
 				}
 			}
+			.p{
+				font-size: 17px;
+			}
 		}
 		.tercera-col-fp{
 	   padding: 0;
 	   text-align: center;
 	   padding-top: 35%;
+	   p{
+	   	font-size: 17px;
+	   }
     }
 
 
     .farolito-empresas{
     	h3{
-    		margin: 10% 4% 1%;
-    		padding-bottom: 5%;
+    		margin: 10% 4% 1% !important;
+    		padding-bottom: 5% !important;
     	}
    }
     .fila-icon-empresas{
@@ -675,13 +696,14 @@ textarea{
    }
     .col-f-empresas{
     	margin-top: 15%;
+    	padding: 1px
     }
 
 
     .farolito-centro-edu{
     	h3{
-    		margin: 10% 4% 1%;
-    		padding-bottom: 5%;
+    		margin: 10% 4% 1% !important;
+    		padding-bottom: 5% !important;
     	}
     }	
     .fila-icon-edu{
@@ -689,6 +711,10 @@ textarea{
     		margin: 0;
     	}
     }
+  
+  .fila-blog{
+  	margin: 0;
+  }
 
 	.caja-blog{
 		background-color: transparent !important;
@@ -725,6 +751,31 @@ textarea{
 			text-align: center;
 		  margin-top: 5%;
 		  margin-right: 0;
+		}
+	}
+	.home-nosotros{
+		background-image:url(../assets/iconos/img_nosotros-03.png) !important;
+		width: 100%;
+		height: auto;
+	}
+	.text-center-nosotros{
+		padding:2%;
+	}
+	.text-center-cita{
+		padding:0;
+		.linea-dashed-cita{
+			margin: 0 2% !important;
+		}
+		h3{
+			margin: 6% 0 !important;
+		}
+		p{
+			padding: 11% 3% !important;
+		}
+	}
+	.img-fundadores{
+		img{
+			width: 50% !important;
 		}
 	}
 }

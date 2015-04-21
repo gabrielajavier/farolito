@@ -6003,6 +6003,9 @@ textarea {
     background-image: none;
     background-color: aliceblue; }
 
+  .text-principal-home {
+    padding: 0 5%; }
+
   .text-metodologia-center {
     padding: 0;
     border-bottom: 2px dashed #FF6A49;
@@ -6011,11 +6014,17 @@ textarea {
   .btn-home {
     float: right;
     position: absolute;
-    top: -107px;
-    margin-left: 25%; }
+    top: -100px;
+    margin-left: 56%; }
+    .btn-home a {
+      font-size: 11px !important;
+      padding: 7px 4px !important;
+      border-radius: 8px !important; }
 
   .primera-col-fp {
     text-align: center; }
+    .primera-col-fp p {
+      font-size: 17px; }
 
   .segunda-col-fp h2 {
     text-align: center;
@@ -6033,15 +6042,19 @@ textarea {
       width: 30%;
       margin: auto;
       text-align: center; }
+  .segunda-col-fp .p {
+    font-size: 17px; }
 
   .tercera-col-fp {
     padding: 0;
     text-align: center;
     padding-top: 35%; }
+    .tercera-col-fp p {
+      font-size: 17px; }
 
   .farolito-empresas h3 {
-    margin: 10% 4% 1%;
-    padding-bottom: 5%; }
+    margin: 10% 4% 1% !important;
+    padding-bottom: 5% !important; }
 
   .fila-icon-empresas h3 {
     color: #FF6A49 !important;
@@ -6050,13 +6063,17 @@ textarea {
     margin: 0; }
 
   .col-f-empresas {
-    margin-top: 15%; }
+    margin-top: 15%;
+    padding: 1px; }
 
   .farolito-centro-edu h3 {
-    margin: 10% 4% 1%;
-    padding-bottom: 5%; }
+    margin: 10% 4% 1% !important;
+    padding-bottom: 5% !important; }
 
   .fila-icon-edu p {
+    margin: 0; }
+
+  .fila-blog {
     margin: 0; }
 
   .caja-blog {
@@ -6090,7 +6107,27 @@ textarea {
     float: none;
     text-align: center;
     margin-top: 5%;
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  .home-nosotros {
+    background-image: url(../assets/iconos/img_nosotros-03.png) !important;
+    width: 100%;
+    height: auto; }
+
+  .text-center-nosotros {
+    padding: 2%; }
+
+  .text-center-cita {
+    padding: 0; }
+    .text-center-cita .linea-dashed-cita {
+      margin: 0 2% !important; }
+    .text-center-cita h3 {
+      margin: 6% 0 !important; }
+    .text-center-cita p {
+      padding: 11% 3% !important; }
+
+  .img-fundadores img {
+    width: 50% !important; } }
 .home-nosotros {
   background-image: url(../assets/img/img_nosotros-02.png);
   width: 100%;
@@ -6101,13 +6138,13 @@ textarea {
 
 .menu-nosotros {
   background-color: #f0fbfd; }
+  .menu-nosotros img {
+    width: 8%;
+    margin: 13px 40px;
+    float: left; }
 
 .menu-fijo {
   margin-top: 6px; }
-
-.collapse img {
-  width: 8%;
-  margin: 13px 40px; }
 
 .text-center-nosotros {
   padding-top: 5%; }
