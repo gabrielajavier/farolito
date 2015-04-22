@@ -5559,6 +5559,12 @@ button.close {
   margin-right: 2%;
   margin-bottom: 0; }
 
+.navbar.scroll {
+  background-color: lightblue;
+  position: fixed;
+  width: 100%;
+  z-index: 15; }
+
 .btn {
   margin: 8px 8px;
   color: white;
@@ -5699,11 +5705,11 @@ button.close {
   transform: rotate(90deg);
   position: relative;
   margin-bottom: 10%;
-  left: 40%; }
+  left: 42%; }
 
 .circulo-exterior {
-  width: 90%;
-  height: 62%;
+  width: 480px;
+  height: 480px;
   margin: 0 auto;
   background-color: #FF6A49;
   border-radius: 50%;
@@ -5721,15 +5727,25 @@ button.close {
         font-size: 22px;
         font-family: "MuseoSans";
         font-weight: normal; }
-    .circulo-exterior .circulo-interior .text-circle-hover h4 {
-      line-height: 1.6;
-      font-size: 22px;
-      font-family: "MuseoSans";
-      font-weight: normal; }
-    .circulo-exterior .circulo-interior .text-circle-hover img {
-      bottom: 8px;
-      position: absolute;
-      left: 145px; }
+    .circulo-exterior .circulo-interior .text-circle-hover {
+      visibility: visible; }
+      .circulo-exterior .circulo-interior .text-circle-hover h4 {
+        line-height: 1.6;
+        font-size: 22px;
+        font-family: "MuseoSans";
+        font-weight: normal; }
+      .circulo-exterior .circulo-interior .text-circle-hover img {
+        bottom: 44%;
+        position: absolute;
+        left: 140px;
+        z-index: 2; }
+
+.circulo-exterior:hover {
+  background-color: white;
+  transition: all 0.5s ease; }
+
+.circulo-interior:hover {
+  border: 3px dashed #FF6A49; }
 
 .text-metodologia {
   font-family: "MuseoSans-uno"; }
@@ -5914,7 +5930,7 @@ button.close {
 
 /*SECCI├ôN BLOG FAROLITO*/
 .blog-farolito h1 {
-  padding-top: 5%; }
+  padding-top: 10%; }
 
 .fila-blog {
   margin: 0% 9%; }
@@ -6048,6 +6064,10 @@ textarea {
       width: 30%;
       margin: auto;
       text-align: center; }
+  .segunda-col-fp .img-circular2 {
+    top: -65px; }
+  .segunda-col-fp .img-circular3 {
+    top: -30px; }
   .segunda-col-fp .p {
     font-size: 17px; }
 
@@ -6090,6 +6110,16 @@ textarea {
       padding: 0 !important;
       margin-top: 35% !important; }
 
+  .caja-blog:hover {
+    transition: 0.5s;
+    background-color: #ffc200 !important;
+    width: 100%;
+    margin-top: 20%; }
+    .caja-blog:hover .text-blog {
+      color: white;
+      padding: 0 !important;
+      margin-top: 35% !important; }
+
   .grupo-formulario {
     visibility: visible; }
 
@@ -6129,10 +6159,13 @@ textarea {
   background-repeat: no-repeat; }
 
 .menu-nosotros {
-  background-color: #f0fbfd; }
+  background-color: #f0fbfd;
+  position: fixed;
+  width: 100%;
+  z-index: 10; }
   .menu-nosotros img {
     width: 8%;
-    margin: 13px 40px;
+    margin: -47px 40px;
     float: left; }
 
 .menu-fijo {
@@ -6207,7 +6240,8 @@ textarea {
   .text-center-nosotros {
     padding: 4%; }
     .text-center-nosotros h1 {
-      font-size: 40px; }
+      font-size: 40px;
+      margin-top: 20%; }
     .text-center-nosotros h3 {
       font-size: 19px;
       padding: 6%; }
@@ -6240,7 +6274,7 @@ textarea {
   font-size: 40px; }
 
 .conten-center-blog {
-  margin-top: 5%;
+  margin-top: 10%;
   padding-left: 8%; }
   .conten-center-blog span {
     font-family: "MuseoSans"; }
@@ -6267,7 +6301,7 @@ textarea {
   position: absolute; }
 
 .conten-rigth-blog {
-  margin-top: 5%; }
+  margin-top: 10%; }
   .conten-rigth-blog p {
     font-size: 18px;
     font-family: "MuseoSans";

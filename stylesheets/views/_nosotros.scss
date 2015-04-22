@@ -16,9 +16,12 @@
 
 .menu-nosotros{
 	background-color: rgb(240, 251, 253);
+  	position: fixed;
+	width: 100%;
+	z-index: 10;
 	img{
 		width: 8%;
-	  margin: 13px 40px;
+	  margin: -47px 40px;
 	  float: left;
 	}
 }
@@ -131,6 +134,7 @@
 		padding:4%;
 		h1{
 			font-size: 40px;
+			  margin-top: 20%;
 		}
 		h3{
 			font-size: 19px;

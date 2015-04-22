@@ -41,6 +41,14 @@
 	margin-bottom: 0;
  }
 
+.navbar.scroll{
+	background-color: lightblue;
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+}
+
+
  .btn{
   margin: 8px 8px;
 	color: white;
@@ -211,12 +219,12 @@
   	transform: rotate(90deg);
 		position: relative;
 		margin-bottom: 10%;
-		left: 40%;
+		left: 42%;
   }
 
 .circulo-exterior{
-	width: 90%;
-	height: 62%;
+	width: 480px;
+	height: 480px;
 	margin: 0 auto;
 	background-color:  #FF6A49;
 	border-radius: 50%;
@@ -237,6 +245,7 @@
 				  }
 			}
 			.text-circle-hover{
+				visibility: visible;
 				  h4{
 				  	line-height: 1.6;
 						font-size: 22px;
@@ -244,12 +253,20 @@
 						font-weight: normal;
 				  }
 				  img{
-				  	 bottom: 8px;
+				  	bottom: 44%;
 						 position: absolute;
-						 left: 145px;
+						 left: 140px;
+						 z-index: 2;
 				  }
 			}
 		}
+}
+.circulo-exterior:hover{
+	background-color: white;
+	transition:all 0.5s ease;
+}
+.circulo-interior:hover{
+	border:3px dashed #FF6A49;
 }
 
 .text-metodologia{
@@ -495,7 +512,7 @@
 
 .blog-farolito{
 	h1{
-		padding-top: 5%;
+		padding-top: 10%;
 	}
 }
 
@@ -645,7 +662,6 @@ textarea{
 			 }
 		}
 
-
 		.primera-col-fp{
 		  text-align: center;
 		  p{
@@ -672,6 +688,12 @@ textarea{
 				  text-align: center;
 				}
 			}
+			.img-circular2{
+			  	top: -65px;
+			 }
+			 .img-circular3{
+			  	top: -30px;
+			 }
 			.p{
 				font-size: 17px;
 			}
@@ -732,6 +754,18 @@ textarea{
   		margin-top: 35% !important;
   	}
 	}
+
+	.caja-blog:hover{
+ 		transition: 0.5s;
+		background-color: #ffc200 !important;
+		width: 100%;
+		margin-top: 20%;
+  	.text-blog{
+  		color: white;
+			padding: 0 !important;
+	    margin-top: 35%!important;
+		}
+  }
 	.grupo-formulario{
 		visibility: visible;
 	}
