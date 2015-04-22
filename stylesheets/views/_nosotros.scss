@@ -3,6 +3,7 @@
   top: 17px;
   position: absolute;
   margin-left: 30%;
+  z-index: 10;
 }
 
 .home-nosotros{
@@ -128,6 +129,7 @@
 	.btn-nosotros{
 		top: 1px !important;
 		margin-left: 63%;
+		z-index: 10;
 	}
 
 	.text-center-nosotros{

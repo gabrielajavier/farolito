@@ -42,7 +42,7 @@
  }
 
 .navbar.scroll{
-	background-color: lightblue;
+	background-color: #F0FBFD;
   position: fixed;
   width: 100%;
   z-index: 15;
@@ -512,7 +512,7 @@
 
 .blog-farolito{
 	h1{
-		padding-top: 10%;
+		padding-top: 5%;
 	}
 }
 
@@ -591,6 +591,7 @@
 	a{
 		padding: 2% 20% !important;
 		margin:0;
+		border-radius: 11px;
 	}
 }
 
@@ -755,6 +756,11 @@ textarea{
   	}
 	}
 
+	.blog-farolito{
+		h1{
+			padding-top: 20%;
+		}
+	}
 	.caja-blog:hover{
  		transition: 0.5s;
 		background-color: #ffc200 !important;
@@ -774,6 +780,11 @@ textarea{
 	}
 	.btn-consulta{
 		float: none;
+		margin: 14% 0;
+		a{
+			border-radius: 11px;
+  		padding: 3% 37% !important;
+		}
 	}
 	textarea{
 		text-align: center;

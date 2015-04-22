@@ -5560,7 +5560,7 @@ button.close {
   margin-bottom: 0; }
 
 .navbar.scroll {
-  background-color: lightblue;
+  background-color: #F0FBFD;
   position: fixed;
   width: 100%;
   z-index: 15; }
@@ -5930,7 +5930,7 @@ button.close {
 
 /*SECCI├ôN BLOG FAROLITO*/
 .blog-farolito h1 {
-  padding-top: 10%; }
+  padding-top: 5%; }
 
 .fila-blog {
   margin: 0% 9%; }
@@ -5991,7 +5991,8 @@ button.close {
   padding: 2%; }
   .btn-consulta a {
     padding: 2% 20% !important;
-    margin: 0; }
+    margin: 0;
+    border-radius: 11px; }
 
 textarea {
   width: 100%;
@@ -6110,6 +6111,9 @@ textarea {
       padding: 0 !important;
       margin-top: 35% !important; }
 
+  .blog-farolito h1 {
+    padding-top: 20%; }
+
   .caja-blog:hover {
     transition: 0.5s;
     background-color: #ffc200 !important;
@@ -6127,7 +6131,11 @@ textarea {
     text-align: center; }
 
   .btn-consulta {
-    float: none; }
+    float: none;
+    margin: 14% 0; }
+    .btn-consulta a {
+      border-radius: 11px;
+      padding: 3% 37% !important; }
 
   textarea {
     text-align: center; }
@@ -6148,7 +6156,8 @@ textarea {
   width: 25%;
   top: 17px;
   position: absolute;
-  margin-left: 30%; }
+  margin-left: 30%;
+  z-index: 10; }
 
 .home-nosotros {
   background-image: url(../assets/img/img_nosotros-02.png);
@@ -6235,7 +6244,8 @@ textarea {
 
   .btn-nosotros {
     top: 1px !important;
-    margin-left: 63%; }
+    margin-left: 63%;
+    z-index: 10; }
 
   .text-center-nosotros {
     padding: 4%; }

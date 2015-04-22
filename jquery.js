@@ -10,12 +10,11 @@ $(document).ready(function() {
 
 
 $(window).scroll(function(){
-	// var prueba = $(this).scrollTop();
-	// if (prueba > 714 {
-	// 	$(".navbar").addClass("scroll");
-		
-	// }
-	// 	else if (prueba < 714) {
-	// 	$(".navbar").removeClass("scroll");
-	// }
+	var prueba = $(this).scrollTop();
+	if (prueba > 714) {
+		$(".navbar").addClass("scroll");
+	}
+		else if (prueba < 714) {
+		$(".navbar").removeClass("scroll");
+	 }
 });
