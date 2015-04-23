@@ -6192,6 +6192,12 @@ textarea {
   margin: 0 38% !important;
   z-index: 10; }
 
+.icon-movil {
+  visibility: hidden; }
+
+.icon-movil.scroll {
+  visibility: visible; }
+
 .home-nosotros {
   background-image: url(../assets/img/img_nosotros-02.png);
   width: 100%;

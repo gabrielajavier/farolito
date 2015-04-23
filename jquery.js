@@ -6,12 +6,12 @@ $(window).scroll(function(){
 	if (prueba > 714) {
 		$(".navbar").addClass("scroll");
 		$(".farolito-icon").addClass("scroll");
-		$(".icon-farolito-movil").addClass("scroll");
+		$(".icon-movil").addClass("scroll");
 	}
 		else if (prueba < 714) {
 		$(".navbar").removeClass("scroll");
 		$(".farolito-icon").removeClass("scroll");
-		$(".icon-farolito-movil").removeClass("scroll");
+		$(".icon-movil").removeClass("scroll");
 	 }
 });
 
