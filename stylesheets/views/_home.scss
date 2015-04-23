@@ -30,7 +30,22 @@
 	height: auto;
 }
 
+
+.farolito-icon{
+		width: 8%;
+	  margin: 8px 40px;
+	  float: left;
+	  visibility: hidden;
+	  transition:all 0.2s ease
+	}
+.farolito-icon.scroll{
+	visibility: visible;
+}
+
+
 .navbar{
+	padding: 5px 0;
+	border-radius: 0;
 	background-color: transparent;
   border-color: transparent;
 	font-family: "MuseoSans";
@@ -39,6 +54,19 @@
 	color:grey;
 	margin-right: 2%;
 	margin-bottom: 0;
+	transition:all 0.2s ease;
+		.btn-principal-home-ingresar{
+			margin: 0 !important;
+		}
+		li {
+			margin: 15px 0;
+			a{
+				padding: 0 20px;
+			}
+			.linea-oportunidades{
+				border-left: 1px solid grey;
+			}
+		}
  }
 
 .navbar.scroll{
@@ -61,12 +89,8 @@
   border: 1px solid grey;
   padding: 5px 13px !important;
   border-radius: 30px;
-  margin-top: 9px;
+  margin-top: -7px;
   font-size: 13px;
-}
-
-.navbar-toggle {
-  border-color: aliceblue !important;
 }
 
 .row{
@@ -637,123 +661,143 @@ textarea{
 
 
 @media screen and (max-width: $screen-phone){
-		.landing{
-			background-image:none;
-			background-color: aliceblue;
-		}
-
-		.text-principal-home{
-			padding: 0 5%;
-		}
-
-		.text-metodologia-center{
-			padding: 0;
-			border-bottom: 2px dashed #FF6A49;
-			border-top: 2px dashed #FF6A49;
-		}
-			.btn-home{
-			 float: right;
-			 position: absolute;
-			 top: -100px;
-			 margin-left: 56%;
-			 a{
-			 	font-size: 11px !important;
-		 	  padding: 7px 4px !important;
-				border-radius: 8px !important;
-			 }
-		}
-
-		.primera-col-fp{
-		  text-align: center;
-		  p{
-		  	font-size: 17px;
-		  }
-		}
-		.segunda-col-fp{
-			h2{
-				text-align: center;
-				padding-right: 0;
-				padding-top: 30%;
+	.navbar-collapse{
+		width: 100%;
+		height: 100%;
+		position:fixed;
+		background-color: #58C6E7;
+		z-index: 20;
+		li{
+			text-align: center;
+			padding: 20px 0;
+			border-bottom: 1px dashed white;
+			a{
+				color: white !important;
+				font-size: 25px;
 			}
-			.img-circular{
-				text-align: center;
+		}
+	}
+
+	.navbar-header{
+		top: 5px;
+  	position: absolute;
+	}
+
+	.container-fluid .landing .menu .navbar{
+		background-color: #F0FBFD;
+		position: fixed;
+		width: 100%;
+		z-index: 15;
+	}
+
+	.landing{
+		background-image:none;
+		background-color: aliceblue;
+	}
+
+	.text-principal-home{
+		padding: 0 5%;
+		margin-top: 27%;
+	}
+
+	.text-metodologia-center{
+		padding: 0;
+		border-bottom: 2px dashed #FF6A49;
+		border-top: 2px dashed #FF6A49;
+	}
+
+	.primera-col-fp{
+	  text-align: center;
+	  p{
+	  	font-size: 17px;
+	  }
+	}
+	.segunda-col-fp{
+		h2{
+			text-align: center;
+			padding-right: 0;
+			padding-top: 30%;
+		}
+		.img-circular{
+			text-align: center;
+		  position: relative;
+		  margin-top: -156px;
+		  img{
+			  border-radius: 50%;
 			  position: relative;
-			  margin-top: -156px;
-			  img{
-				  border-radius: 50%;
-				  position: relative;
-				  left: 0%;
-				  z-index: 10;
-				  width: 30%;
-				  margin: auto;
-				  text-align: center;
-				}
-			}
-			.img-circular2{
-			  	top: -65px;
-			 }
-			 .img-circular3{
-			  	top: -30px;
-			 }
-			.p{
-				font-size: 17px;
+			  left: 0%;
+			  z-index: 10;
+			  width: 30%;
+			  margin: auto;
+			  text-align: center;
 			}
 		}
-		.tercera-col-fp{
-	   padding: 0;
-	   text-align: center;
-	   padding-top: 35%;
-	   p{
-	   	font-size: 17px;
-	   }
-    }
+		.img-circular2{
+		  	top: -65px;
+		 }
+		 .img-circular3{
+		  	top: -30px;
+		 }
+		.p{
+			font-size: 17px;
+		}
+	}
+
+	.tercera-col-fp{
+	 padding: 0;
+	 text-align: center;
+	 padding-top: 35%;
+	 p{
+	 	font-size: 17px;
+	 }
+	}
 
 
-    .farolito-empresas{
-    	h3{
-    		margin: 10% 4% 1% !important;
-    		padding-bottom: 5% !important;
-    	}
-   }
-    .fila-icon-empresas{
-    	h3{
-    	color: #FF6A49 !important;
-    	border-bottom: 0;
-     }
-     p{
-     	margin: 0;
-     }
-   }
-    .col-f-empresas{
-    	margin-top: 15%;
-    	padding: 1px
-    }
+	.farolito-empresas{
+		h3{
+			margin: 10% 4% 1% !important;
+			padding-bottom: 5% !important;
+		}
+	}
+	.fila-icon-empresas{
+		h3{
+		color: #FF6A49 !important;
+		border-bottom: 0;
+	 }
+	 p{
+	 	margin: 0;
+	 }
+	}
+	.col-f-empresas{
+		margin-top: 15%;
+		padding: 1px
+	}
 
 
-    .farolito-centro-edu{
-    	h3{
-    		margin: 10% 4% 1% !important;
-    		padding-bottom: 5% !important;
-    	}
-    }	
-    .fila-icon-edu{
-    	p{
-    		margin: 0;
-    	}
-    }
-  
-  .fila-blog{
-  	margin: 0;
-  }
+	.farolito-centro-edu{
+		h3{
+			margin: 10% 4% 1% !important;
+			padding-bottom: 5% !important;
+		}
+	}	
+	.fila-icon-edu{
+		p{
+			margin: 0;
+		}
+	}
+
+	.fila-blog{
+		margin: 0;
+	}
 
 	.caja-blog{
 		background-color: transparent !important;
-  	text-align: center;
-  	margin-top: 20%;
-  	.text-blog{
-  		padding: 0 !important;
-  		margin-top: 35% !important;
-  	}
+		text-align: center;
+		margin-top: 20%;
+		.text-blog{
+			padding: 0 !important;
+			margin-top: 35% !important;
+		}
 	}
 
 	.blog-farolito{
@@ -762,16 +806,16 @@ textarea{
 		}
 	}
 	.caja-blog:hover{
- 		transition: 0.5s;
+			transition: 0.5s;
 		background-color: #ffc200 !important;
 		width: 100%;
 		margin-top: 20%;
-  	.text-blog{
-  		color: white;
+		.text-blog{
+			color: white;
 			padding: 0 !important;
 	    margin-top: 35%!important;
 		}
-  }
+	}
 	.grupo-formulario{
 		visibility: visible;
 	}
@@ -783,7 +827,7 @@ textarea{
 		margin: 14% 0;
 		a{
 			border-radius: 11px;
-  		padding: 3% 37% !important;
+			padding: 3% 37% !important;
 		}
 	}
 	textarea{

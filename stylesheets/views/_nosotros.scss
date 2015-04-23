@@ -1,8 +1,8 @@
 .icon-farolito-movil{
-	width: 25%;
+	width: 25% !important;
   top: 17px;
   position: absolute;
-  margin-left: 30%;
+  margin: 0 38% !important;
   z-index: 10;
 }
 
@@ -127,9 +127,16 @@
 	}
 	
 	.btn-nosotros{
-		top: 1px !important;
-		margin-left: 63%;
+		top: 2px !important;
+		margin-left: 67%;
 		z-index: 10;
+	}
+	.button-principal a {
+	  background-color: #FF6A49;
+	  border-color: #ff5530;
+	  padding: 5px;
+  	font-size: 11px;
+  	border-radius: 6px;
 	}
 
 	.text-center-nosotros{
@@ -171,9 +178,5 @@
 		img{
 			width: 50% !important;
 		}
-	}
-	.button-principal a {
-	  background-color: #FF6A49;
-	  border-color: #ff5530;
 	}
 }

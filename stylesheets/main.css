@@ -5549,7 +5549,19 @@ button.close {
   width: 100%;
   height: auto; }
 
+.farolito-icon {
+  width: 8%;
+  margin: 8px 40px;
+  float: left;
+  visibility: hidden;
+  transition: all 0.2s ease; }
+
+.farolito-icon.scroll {
+  visibility: visible; }
+
 .navbar {
+  padding: 5px 0;
+  border-radius: 0;
   background-color: transparent;
   border-color: transparent;
   font-family: "MuseoSans";
@@ -5557,7 +5569,16 @@ button.close {
   font-size: 19px;
   color: grey;
   margin-right: 2%;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  transition: all 0.2s ease; }
+  .navbar .btn-principal-home-ingresar {
+    margin: 0 !important; }
+  .navbar li {
+    margin: 15px 0; }
+    .navbar li a {
+      padding: 0 20px; }
+    .navbar li .linea-oportunidades {
+      border-left: 1px solid grey; }
 
 .navbar.scroll {
   background-color: #F0FBFD;
@@ -5576,11 +5597,8 @@ button.close {
   border: 1px solid grey;
   padding: 5px 13px !important;
   border-radius: 30px;
-  margin-top: 9px;
+  margin-top: -7px;
   font-size: 13px; }
-
-.navbar-toggle {
-  border-color: aliceblue !important; }
 
 .row {
   margin: 0; }
@@ -6022,27 +6040,42 @@ textarea {
 
 /*@MEDIA */
 @media screen and (max-width: 480px) {
+  .navbar-collapse {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #58C6E7;
+    z-index: 20; }
+    .navbar-collapse li {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 1px dashed white; }
+      .navbar-collapse li a {
+        color: white !important;
+        font-size: 25px; }
+
+  .navbar-header {
+    top: 5px;
+    position: absolute; }
+
+  .container-fluid .landing .menu .navbar {
+    background-color: #F0FBFD;
+    position: fixed;
+    width: 100%;
+    z-index: 15; }
+
   .landing {
     background-image: none;
     background-color: aliceblue; }
 
   .text-principal-home {
-    padding: 0 5%; }
+    padding: 0 5%;
+    margin-top: 27%; }
 
   .text-metodologia-center {
     padding: 0;
     border-bottom: 2px dashed #FF6A49;
     border-top: 2px dashed #FF6A49; }
-
-  .btn-home {
-    float: right;
-    position: absolute;
-    top: -100px;
-    margin-left: 56%; }
-    .btn-home a {
-      font-size: 11px !important;
-      padding: 7px 4px !important;
-      border-radius: 8px !important; }
 
   .primera-col-fp {
     text-align: center; }
@@ -6153,10 +6186,10 @@ textarea {
     margin-top: 5%;
     margin-right: 0; } }
 .icon-farolito-movil {
-  width: 25%;
+  width: 25% !important;
   top: 17px;
   position: absolute;
-  margin-left: 30%;
+  margin: 0 38% !important;
   z-index: 10; }
 
 .home-nosotros {
@@ -6243,9 +6276,16 @@ textarea {
     height: auto; }
 
   .btn-nosotros {
-    top: 1px !important;
-    margin-left: 63%;
+    top: 2px !important;
+    margin-left: 67%;
     z-index: 10; }
+
+  .button-principal a {
+    background-color: #FF6A49;
+    border-color: #ff5530;
+    padding: 5px;
+    font-size: 11px;
+    border-radius: 6px; }
 
   .text-center-nosotros {
     padding: 4%; }
@@ -6272,11 +6312,7 @@ textarea {
       padding: 11% 3% !important; }
 
   .img-fundadores img {
-    width: 50% !important; }
-
-  .button-principal a {
-    background-color: #FF6A49;
-    border-color: #ff5530; } }
+    width: 50% !important; } }
 .content-blog h1 {
   font-family: "NeutraText-LightAlt";
   font-weight: 600;
