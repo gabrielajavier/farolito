@@ -27,3 +27,24 @@ $(document).ready(function() {
 	});
 });
 
+/*MENU RESPONSIVE MOVIL*/
+
+$(document).ready(main);
+var contador = 1;
+
+function main(){
+	$(".navbar-header").click(function(){
+		if (contador ==1){
+			$(".navbar-collapse").animate({
+				left:"0"
+			});
+			contador = 0;
+		} else{
+			contador = 1;
+			$("navbar-collapse").animate({
+				left: "-100%"
+			});
+		}
+
+	})
+}

@@ -5991,7 +5991,7 @@ button.close {
   .fila-blog .caja-blog {
     background-color: #E7E7E7;
     width: 100%;
-    height: 27%; }
+    height: 220px; }
     .fila-blog .caja-blog .text-blog {
       padding: 17% 6% 6% 12%;
       margin: 0; }
@@ -6001,7 +6001,7 @@ button.close {
     transition: 0.5s;
     background-color: #ffc200;
     width: 100%;
-    height: 27%; }
+    height: 220px; }
     .fila-blog .caja-blog:hover .text-blog {
       color: white;
       padding: 17% 6% 6% 12%;
@@ -6078,6 +6078,7 @@ textarea {
   .navbar-collapse {
     width: 100%;
     height: 100%;
+    left: -100%;
     position: fixed;
     background-color: #58C6E7;
     z-index: 20; }
@@ -6176,6 +6177,7 @@ textarea {
   .caja-blog {
     background-color: transparent !important;
     text-align: center;
+    height: 125px !important;
     margin-top: 20%; }
     .caja-blog .text-blog {
       padding: 0 !important;
@@ -6188,6 +6190,7 @@ textarea {
     transition: 0.5s;
     background-color: #ffc200 !important;
     width: 100%;
+    height: 125px !important;
     margin-top: 20%; }
     .caja-blog:hover .text-blog {
       color: white;
