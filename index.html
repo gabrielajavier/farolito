@@ -39,15 +39,38 @@
 				        <li class="hidden-sm hidden-md hidden-lg"><a href="nosotros.html">Crear cuenta</a></li>
 				        <li class="hidden-sm hidden-md hidden-lg"><a href="blog.html">Blog</a></li>
 				        <li class="hidden-sm hidden-md hidden-lg"><a href="#contactanos">Contáctanos</a></li>
-				        <li class="hidden-xs"><a href="#" class="linea-oportunidades"> Oportunidades</a></li>
+				        <li class="hidden-xs"><a href="#lista-de-oportunidades" class="linea-oportunidades"> Oportunidades</a></li>
 				        <li class="dropdown hidden-xs">
 				          <a href="#" class="dropdown-toggle bnt-dropdown" data-toggle="dropdown" role="button" aria-expanded="false"> ES <span class="caret"></span></a>
 				          <ul class="dropdown-menu" role="menu">
 				            <li><a href="#">ENGLISH</a></li>
 				          </ul>
 				        </li>
-				        <li class="hidden-xs btn-principal-home-ingresar">
-				        <button type="submit" class="btn btn-default hidden-xs">INGRESAR</button>
+				        <li class="hidden-xs btn-principal-home-ingresar" >
+				        	<button type="submit" class="btn btn-default hidden-xs" data-toggle="modal" data-target=".bs-example-modal-md" >INGRESAR</button>
+				        	<div class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+									  <div class="modal-dialog modal-md">
+									    <div class="modal-content">
+									      <h1 class="text-primary text-center text-lightblue"> Ingresa tu cuenta</h1>
+									      <form action="">
+												  <div class="grupo-formulario columna modal-home">
+												    <input type="text" class="estilo-nombre" placeholder="Usuario" required=""> 
+												  </div>
+												  <div class="grupo-formulario columna modal-home">
+												    <input type="text" class="estilo-nombre" placeholder="Contraseña"  required=""> 
+												  </div>
+													<div class="btn-principal-home btn-consulta btn-model modal-home">
+															<a href="" class="btn a-model"> INGRESAR </a>
+													</div>
+													<br>
+													<br>
+													<br>
+													<p class="text-grey size-p">¿Olvidaste tu contraseña?</p>
+													<p class="text-grey size-p">¿No estas registrado? Crea tu cuenta aquí</p>
+												</form>
+									    </div>
+									  </div>
+									</div>
 				        </li>
 				      </ul>
 				    </div><!-- /.navbar-collapse -->
@@ -64,7 +87,7 @@
 						<h4 class="text-gray hidden-sm hidden-md hidden-lg">Con una evaluación rigurosa, identificamos la sinergia óptima entre trabajador y empresa, aumentando la productividad, la permanencia y la felicidad de los trabajadores
 						</h4>
 						<div class="button-principal btn-home hidden-xs">
-							<a href="" class="btn"> CREA TU PERFIL</a>
+							<a href="crear-cuenta.html" class="btn"> CREA TU PERFIL</a>
 						</div>
 					</div>
 					<img src="assets/img/foto-landing-09.png" class="hidden-sm hidden-md hidden-lg ">
@@ -481,9 +504,15 @@
 				<div class="row fila-redes">
 					<div class="col-sm-6 redes-icon">
 						<div class="redes">
-							<img src="assets/iconos/iconos-12.png">
-							<img src="assets/iconos/iconos-13.png">
-							<img src="assets/iconos/iconos-14.png">
+							<a href="">
+								<img src="assets/iconos/iconos-12.png">
+							</a>
+							<a href="">
+								<img src="assets/iconos/iconos-13.png">
+							</a>
+							<a href="">
+								<img src="assets/iconos/iconos-14.png">
+							</a>
 						</div>
 					</div>
 					<div class="col-sm-6">
@@ -495,10 +524,28 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<!-- Javascripts de Bootstrap -->
+
+		<script src="javascripts/bootstrap/js/bootstrap.min.js"></script>
 		<script src="javascripts/b3/collapse.js"></script>
 		<script src="javascripts/b3/transition.js"></script>
 		<script src="javascripts/b3/dropdown.js"></script>
 		<script type="text/javascript/jquery.js"></script>
 		<script src="jquery.js"></script>
+		<script>
+			$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html,body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000);
+			        return false;
+			      }
+			    }
+			  });
+			});
+		</script>
 	</body>	
 </html>	

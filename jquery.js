@@ -3,12 +3,12 @@
 
 $(window).scroll(function(){
 	var prueba = $(this).scrollTop();
-	if (prueba > 714) {
+	if (prueba > 550) {
 		$(".navbar").addClass("scroll");
 		$(".farolito-icon").addClass("scroll");
 		$(".icon-movil").addClass("scroll");
 	}
-		else if (prueba < 714) {
+		else if (prueba < 550) {
 		$(".navbar").removeClass("scroll");
 		$(".farolito-icon").removeClass("scroll");
 		$(".icon-movil").removeClass("scroll");
