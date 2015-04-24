@@ -32,8 +32,8 @@
 				      <ul class="nav navbar-nav navbar-right">
 				      	<li class="hidden-sm hidden-md hidden-lg"><a href="index.html">Home</a></li>
 				        <li><a href="nosotros.html">Sobre Nosotros</a></li>
-				        <li class="hidden-sm hidden-md hidden-lg"><a href="nosotros.html">Ingresa tu cuenta</a></li>
-				        <li class="hidden-sm hidden-md hidden-lg"><a href="nosotros.html">Crear cuenta</a></li>
+				        <li class="hidden-sm hidden-md hidden-lg"><a href="ingresa-cuenta.html">Ingresa tu cuenta</a></li>
+				        <li class="hidden-sm hidden-md hidden-lg"><a href="crear-cuenta.html">Crear cuenta</a></li>
 				        <li class="hidden-sm hidden-md hidden-lg"><a href="blog.html">Blog</a></li>
 				        <li class="hidden-sm hidden-md hidden-lg"><a href="nosotros.html">Contáctanos</a></li>
 				        <li class="hidden-xs"><a href="#" class="linea-oportunidades"> Vacantes</a></li>
@@ -64,11 +64,11 @@
 				</div>
 			</section>
 			<div class="arrow-home hidden-xs">
-				<a href="">
+				<a href="#fundadores">
 					<img src="assets/iconos/iconos-15.png">
 				</a>
 			</div>
-			<section class="fundadores">
+			<section class="fundadores" id="fundadores">
 				<div class="container">
 					<h1 class="text-primary text-center text-grey">Fundadores</h1>
 					<div class="conteiner">
@@ -292,5 +292,21 @@
 		<script src="javascripts/b3/transition.js"></script>
 		<script src="javascripts/b3/dropdown.js"></script>
 		<script type="text/javascript/jquery.js"></script>
+		<script>
+			$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html,body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000);
+			        return false;
+			      }
+			    }
+			  });
+			});
+		</script>
 	</body>	
 </html>	

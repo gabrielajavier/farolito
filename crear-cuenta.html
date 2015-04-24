@@ -10,38 +10,104 @@
 	</head>
 	<body>
 		<div class="container-fluid">
+			<div class="menu hidden-sm hidden-md hidden-lg">
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				     </div> 
+				     <a href="index.html">
+							 <img src="assets/iconos/iconos-20.png" class="farolito-icon  hidden-xs">
+						 </a>
+					    <!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav navbar-right">
+				      	<li class="hidden-sm hidden-md hidden-lg"><a href="index.html">Home</a></li>
+				        <li><a href="nosotros.html">Sobre Nosotros</a></li>
+				        <li class="hidden-sm hidden-md hidden-lg"><a href="ingresa-cuenta.html">Ingresa tu cuenta</a></li>
+				        <li class="hidden-sm hidden-md hidden-lg"><a href="crear-cuenta.html">Crear cuenta</a></li>
+				        <li class="hidden-sm hidden-md hidden-lg"><a href="blog.html">Blog</a></li>
+				        <li class="hidden-sm hidden-md hidden-lg"><a href="index.html">Contáctanos</a></li>
+				        <li class="hidden-xs"><a href="#lista-de-oportunidades" class="linea-oportunidades"> Oportunidades</a></li>
+				      </ul>
+				    </div><!-- /.navbar-collapse -->
+					</nav>
+				</div>
 			<section class="crear-cuenta">
-				<div class="row">
-					<div class="col-sm-6">
-
-
+				<div class="container">
+					<div class="row fila-crear-cuenta">
+						<div class="col-sm-6 text-crear-cuenta text-center">
+							<div class="hidden-xs">
+								<a href="index.html">
+									<img src="assets/iconos/iconos-40.png">
+								</a>
+							</div>
+							<h1 class="text-primary text-center text-lightblue"> ¡Bienvenido!</h1>
+							<h2 class="text-grey">Empieza creando tu cuenta farolito</h2>
+						</div>
+						<div class="col-sm-1"></div>
+						<div class="col-sm-4">
+							<div class="">
+						    <form action="">
+								  <div class="grupo-formulario columna p-cuenta">
+								  	<p class="size-p hidden-xs">Nombre</p>
+								    <input type="text" class="estilo-nombre hidden-xs" placeholder="" required=""> 
+								    <input type="text" class="estilo-nombre hidden-sm hidden-md hidden-lg" placeholder="Nombre" required=""> 
+								  </div>
+								  <div class="grupo-formulario columna p-cuenta">
+								  	<p class="size-p hidden-xs">Correo electrónico</p>
+								  	 <input type="text" class="estilo-nombre hidden-xs" placeholder="" required=""> 
+								    <input type="text" class="estilo-nombre hidden-sm hidden-md hidden-lg" placeholder="Correo electrónico" required=""> 
+								  </div>
+								  <div class="grupo-formulario columna p-cuenta">
+								  	<p class=" size-p hidden-xs">Contraseña</p>
+								  	 <input type="text" class="estilo-nombre hidden-xs" placeholder="" required=""> 
+								    <input type="text" class="estilo-nombre hidden-sm hidden-md hidden-lg" placeholder="Contraseña" required=""> 
+								    <span class="text-grey span-cuenta">6 o más caracteres</span>
+								  </div>
+								  <div class="grupo-formulario columna p-cuenta">
+								  	<p class=" size-p hidden-xs">Confirmar contraseña</p>
+								  	 <input type="text" class="estilo-nombre hidden-xs" placeholder="" required=""> 
+								    <input type="text" class="estilo-nombre hidden-sm hidden-md hidden-lg" placeholder="Confirmar contraseña"  required=""> 
+								  </div>
+									<div class="btn-home btn-cuenta">
+											<a href="" class="btn a-model"> CREAR CUENTA  </a>
+									</div>
+									<br>
+									<br>
+									<br>
+								</form>
+						  </div>
+						</div>
+						<div class="col-sm-1"></div>
+					</div>
+				</div>
+			</section>
+			<section class="footer hidden-sm hidden-md hidden-lg">
+				<div class="row fila-redes">
+					<div class="col-sm-6 redes-icon">
+						<div class="redes">
+							<a href="">
+								<img src="assets/iconos/iconos-12.png">
+							</a>
+							<a href="">
+								<img src="assets/iconos/iconos-13.png">
+							</a>
+							<a href="">
+								<img src="assets/iconos/iconos-14.png">
+							</a>
+						</div>
 					</div>
 					<div class="col-sm-6">
-						<div class="">
-					    <h1 class="text-primary text-center text-lightblue"> Ingresa tu cuenta</h1>
-					    <form action="">
-							  <div class="grupo-formulario columna modal-home">
-							    <input type="text" class="estilo-nombre" placeholder="Usuario" required=""> 
-							  </div>
-							  <div class="grupo-formulario columna modal-home">
-							    <input type="text" class="estilo-nombre" placeholder="Contraseña"  required=""> 
-							  </div>
-								<div class="btn-principal-home btn-consulta btn-model modal-home">
-										<a href="" class="btn a-model"> INGRESAR </a>
-								</div>
-								<br>
-								<br>
-								<br>
-								<p class="text-grey size-p">¿Olvidaste tu contraseña?</p>
-								<p class="text-grey size-p">¿No estas registrado? Crea tu cuenta aquí</p>
-							</form>
-					  </div>
+						<p class="text-white">todos los derechos reservados</p>
 					</div>
 				</div>
 			</section>
 		</div>
-
-
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
